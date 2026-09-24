@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Ice Cream",
+    "slug": "ice-creams",
+    "description": "Ice Cream",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Essentials",
+    "slug": "essentials",
+    "description": "Essentials",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Whipping Cream / Gel / Fillings",
+    "slug": "whipping-cream-gel-filling",
+    "description": "Whipping Cream / Gel / Fillings",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Sauce / Pasta / Dressings / Toppings",
+    "slug": "sauce-pasta-dressings-toppings",
+    "description": "Sauce / Pasta / Dressings / Toppings",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Chocolates / Cocoa / Compound",
+    "slug": "chocolates-cocoa-compound",
+    "description": "Chocolates / Cocoa / Compound",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Veg & Non-Veg Frozen Starters & Snacks",
+    "slug": "veg-non-veg-frozen-starters-snacks",
+    "description": "Veg & Non-Veg Frozen Starters & Snacks",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Cake Pre Mixes",
+    "slug": "cake-pre-mixes",
+    "description": "Cake Pre Mixes",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Bakery Decorative Products",
+    "slug": "bakery-decorative-products",
+    "description": "Bakery Decorative Products",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Cake Base / Box / Pastry Tray / Wrap",
+    "slug": "cake-base-box-pastry-tray-wrap",
+    "description": "Cake Base / Box / Pastry Tray / Wrap",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Crush / Mocktails",
+    "slug": "crush-mocktails",
+    "description": "Crush / Mocktails",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Spices / Seasonings",
+    "slug": "spices-seasonings",
+    "description": "Spices / Seasonings",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Bread / Cheese / Milk / Ghee",
+    "slug": "bread-toppings-cheese-milk-ghee",
+    "description": "Bread / Cheese / Milk / Ghee",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Munch / Short Eats",
+    "slug": "munch-short-eats",
+    "description": "Munch / Short Eats",
+    "image": "assets/images/product-placeholder.svg"
+  },
+  {
+    "name": "Others",
+    "slug": "others",
+    "description": "Others",
+    "image": "assets/images/product-placeholder.svg"
+  }
+]

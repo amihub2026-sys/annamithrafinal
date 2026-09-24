@@ -1,0 +1,12 @@
+document.addEventListener('DOMContentLoaded',()=>{
+ const host=document.querySelector('#productDetail');if(!host)return;
+ const slug=new URLSearchParams(location.search).get('slug');
+ const p=PRODUCTS.find(x=>x.slug===slug),related=document.querySelector('#relatedProducts'),e=escapeHTML;
+ if(!p){document.title='Product not found | Annamithra Agencies';host.innerHTML='<div class="empty"><h1>Product not found</h1><p>This product link is unavailable. Please browse our catalogue.</p><a class="btn btn-primary" href="products.html">View all products</a></div>';if(related)related.innerHTML='';return;}
+ document.title=`${p.productName} | Annamithra Agencies`;
+ const msg=`Hello, I would like to enquire about ${p.productName}, ${p.brand}, ${p.packSizes.join(', ')}. Please share availability and supply details. Page: ${location.href}`;
+ host.innerHTML=`<div class="detail-image"><img src="${e(p.mainImage)}" alt="${e(p.productName)}"></div><div><span class="kicker">${e(p.brand)} · ${e(p.category)}</span><h1>${e(p.productName)}</h1><p>${e(p.fullDescription)}</p><div class="badges"><span class="badge">${e(p.availability)}</span></div><table class="detail-table"><tr><td>Product code</td><td>${e(p.productCode)}</td></tr><tr><td>Pack sizes</td><td>${e(p.packSizes.join(', '))}</td></tr><tr><td>Storage</td><td>${e(p.storageType)}</td></tr><tr><td>Food type</td><td>${e(p.foodType)}</td></tr></table><div class="hero-actions"><a class="btn btn-primary" target="_blank" rel="noopener" href="${e(wa(msg))}">Enquire on WhatsApp</a><a class="btn btn-dark" data-phone>Call Now</a><button class="btn btn-outline" id="copyLink">Copy Product Link</button></div><p id="copyStatus" aria-live="polite"></p><div class="notice">Please confirm current availability, pack size and supply quantity with our team.</div></div>`;
+ shared();
+ document.querySelector('#copyLink').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector('#copyStatus').textContent='Product link copied.';}catch{const input=document.createElement('input');input.value=location.href;input.readOnly=true;input.setAttribute('aria-label','Product URL to copy');const status=document.querySelector('#copyStatus');status.textContent='Copy this link: ';status.append(input);input.select();}};
+ if(related)related.innerHTML=PRODUCTS.filter(x=>x.id!==p.id&&(x.categorySlug===p.categorySlug||x.brand===p.brand)).slice(0,4).map(productCard).join('');
+});

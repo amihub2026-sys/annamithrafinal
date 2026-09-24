@@ -1,0 +1,22 @@
+{
+  "existingCategoryRows": 303,
+  "importedSourceProducts": 1131,
+  "totalProducts": 1464,
+  "categoryCounts": {
+    "ice-creams": 124,
+    "essentials": 79,
+    "whipping-cream-gel-filling": 42,
+    "sauce-pasta-dressings-toppings": 191,
+    "chocolates-cocoa-compound": 129,
+    "veg-non-veg-frozen-starters-snacks": 337,
+    "cake-pre-mixes": 41,
+    "bakery-decorative-products": 37,
+    "cake-base-box-pastry-tray-wrap": 30,
+    "crush-mocktails": 153,
+    "spices-seasonings": 94,
+    "bread-toppings-cheese-milk-ghee": 168,
+    "munch-short-eats": 14,
+    "others": 25
+  },
+  "unclassifiedSourceProducts": 15
+}

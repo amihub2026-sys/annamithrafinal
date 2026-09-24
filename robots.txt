@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amihub2026-sys.github.io/annamithra/sitemap.xml

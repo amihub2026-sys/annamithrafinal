@@ -8,7 +8,7 @@ No backend or live catalogue API is required. The website reads the bundled Java
 - 1,131 Selvarani source entries imported; 303 existing category rows and 30 existing card entries retained (1,464 total). Existing rows may describe overlapping products or grouped flavours; they were retained to avoid losing your catalogue.
 - All 14 category pages, All Products, search, filters and detail pages share the generated product data.
 - 43 broken active local links repaired.
-- WhatsApp set to 917373373030, matching the displayed contact telephone. Confirm this number has WhatsApp before publishing.
+- WhatsApp set to 919384813537, matching the displayed contact telephone. Confirm this number has WhatsApp before publishing.
 - Product-not-found handling, Annamithra titles, safe text rendering, clipboard fallback and idempotent menu bindings.
 - Compact pagination, category search and mobile category rows.
 - Download Catalogue now downloads assets/Annamithra_Product_Catalogue.pdf.

@@ -1,22 +1,17 @@
 {
-  "existingCategoryRows": 303,
-  "importedSourceProducts": 1131,
-  "totalProducts": 1464,
-  "categoryCounts": {
-    "ice-creams": 124,
-    "essentials": 79,
-    "whipping-cream-gel-filling": 42,
-    "sauce-pasta-dressings-toppings": 191,
-    "chocolates-cocoa-compound": 129,
-    "veg-non-veg-frozen-starters-snacks": 337,
-    "cake-pre-mixes": 41,
-    "bakery-decorative-products": 37,
-    "cake-base-box-pastry-tray-wrap": 30,
-    "crush-mocktails": 153,
-    "spices-seasonings": 94,
-    "bread-toppings-cheese-milk-ghee": 168,
-    "munch-short-eats": 14,
-    "others": 25
+  "source": "14 user-supplied product-list images, 5 October 2026",
+  "products": 221,
+  "categories": 9,
+  "byCategory": {
+    "veg-snacks": 45,
+    "momos-rolls-samosas": 53,
+    "kitchen-essentials": 32,
+    "chicken-meat-snacks": 26,
+    "raw-marinated-chicken": 18,
+    "seafood": 12,
+    "cheese-butter-cream": 27,
+    "pastry-dough": 3,
+    "imported-meats": 5
   },
-  "unclassifiedSourceProducts": 15
+  "prices": "Not published; enquire for current prices."
 }

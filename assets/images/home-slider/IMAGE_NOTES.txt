@@ -1,0 +1,7 @@
+Website banner images generated with the built-in image-generation tool.
+No baked-in text or branding; original Annamithra logo overlay is kept in HTML.
+frozen-1.webp: fries, momos, spring rolls and samosas on a dark tabletop.
+frozen-2.webp: cooked chicken and seafood serving suggestions.
+frozen-3.webp: frozen peas, corn, momos, paneer patties and spring rolls.
+Prompts requested commercial food photography, landscape composition, navy tabletop,
+warm side lighting, no people, text, logos or packaging.

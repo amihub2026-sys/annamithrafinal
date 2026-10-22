@@ -19,11 +19,46 @@ function shared() {
             "Hello, I would like to enquire about your dairy and frozen-food products.",
         )),
     );
-  [[".menu-btn", ".navlinks", "toggle"], [".filter-toggle", ".filters", "add"], [".filter-close", ".filters", "remove"]].forEach(([button, target, action]) => {
+  // Main mobile menu: one listener, predictable open/closed state.
+  const menuBtn = document.querySelector(".menu-btn");
+  const mobileNav = document.querySelector(".navlinks");
+  if (menuBtn && mobileNav) {
+    menuBtn.setAttribute("aria-expanded", "false");
+    menuBtn.setAttribute("aria-label", "Open navigation menu");
+    menuBtn.addEventListener("click", () => {
+      const opened = mobileNav.classList.toggle("open");
+      menuBtn.setAttribute("aria-expanded", String(opened));
+      menuBtn.setAttribute("aria-label", opened ? "Close navigation menu" : "Open navigation menu");
+      if (!opened) mobileNav.querySelectorAll(".nav-dropdown.open").forEach(d => {
+        d.classList.remove("open");
+        d.querySelector(".nav-dropdown-trigger")?.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+  [[".filter-toggle", ".filters", "add"], [".filter-close", ".filters", "remove"]].forEach(([button,target,action]) => {
     const el = document.querySelector(button);
-    if (!el || el.dataset.bound) return;
-    el.dataset.bound = "true";
-    el.addEventListener("click", () => document.querySelector(target)?.classList[action]("open"));
+    if (el && !el.dataset.bound) {
+      el.dataset.bound="true";
+      el.addEventListener("click", () => document.querySelector(target)?.classList[action]("open"));
+    }
+  });
+  document.querySelectorAll(".nav-dropdown").forEach(dropdown => {
+    const trigger = dropdown.querySelector(".nav-dropdown-trigger");
+    if (!trigger || trigger.dataset.mobileBound) return;
+    trigger.dataset.mobileBound = "true";
+    trigger.setAttribute("role", "button");
+    trigger.setAttribute("tabindex", "0");
+    trigger.setAttribute("aria-expanded", "false");
+    const toggle = event => {
+      if (!window.matchMedia("(max-width: 1050px)").matches) return;
+      event.preventDefault();
+      const opened = dropdown.classList.toggle("open");
+      trigger.setAttribute("aria-expanded", String(opened));
+    };
+    trigger.addEventListener("click", toggle);
+    trigger.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") toggle(event);
+    });
   });
   document
     .querySelectorAll("[data-year]")

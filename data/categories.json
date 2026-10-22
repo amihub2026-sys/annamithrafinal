@@ -1,86 +1,65 @@
 [
   {
-    "name": "Ice Cream",
-    "slug": "ice-creams",
-    "description": "Ice Cream",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "veg-snacks",
+    "name": "Frozen Veg Snacks & Vegetables",
+    "description": "Frozen Veg Snacks & Vegetables",
+    "image": "assets/images/categories/ready-to-eat-optimized.webp",
+    "count": 45
   },
   {
-    "name": "Essentials",
-    "slug": "essentials",
-    "description": "Essentials",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "momos-rolls-samosas",
+    "name": "Momos, Rolls & Samosas",
+    "description": "Momos, Rolls & Samosas",
+    "image": "assets/images/categories/momos.jpg",
+    "count": 53
   },
   {
-    "name": "Whipping Cream / Gel / Fillings",
-    "slug": "whipping-cream-gel-filling",
-    "description": "Whipping Cream / Gel / Fillings",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "raw-marinated-chicken",
+    "name": "Raw & Marinated Chicken",
+    "description": "Raw & Marinated Chicken",
+    "image": "assets/images/categories/raw-chicken-optimized.webp",
+    "count": 18
   },
   {
-    "name": "Sauce / Pasta / Dressings / Toppings",
-    "slug": "sauce-pasta-dressings-toppings",
-    "description": "Sauce / Pasta / Dressings / Toppings",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "chicken-meat-snacks",
+    "name": "Chicken & Meat Snacks",
+    "description": "Chicken & Meat Snacks",
+    "image": "assets/images/categories/snack.jpg",
+    "count": 26
   },
   {
-    "name": "Chocolates / Cocoa / Compound",
-    "slug": "chocolates-cocoa-compound",
-    "description": "Chocolates / Cocoa / Compound",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "seafood",
+    "name": "Seafood",
+    "description": "Seafood",
+    "image": "assets/images/categories/raw-seafood.jpg",
+    "count": 12
   },
   {
-    "name": "Veg & Non-Veg Frozen Starters & Snacks",
-    "slug": "veg-non-veg-frozen-starters-snacks",
-    "description": "Veg & Non-Veg Frozen Starters & Snacks",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "cheese-butter-cream",
+    "name": "Cheese, Butter & Cream",
+    "description": "Cheese, Butter & Cream",
+    "image": "assets/images/categories/bread-optimized.webp",
+    "count": 27
   },
   {
-    "name": "Cake Pre Mixes",
-    "slug": "cake-pre-mixes",
-    "description": "Cake Pre Mixes",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "pastry-dough",
+    "name": "Pastry & Dough",
+    "description": "Pastry & Dough",
+    "image": "assets/images/categories/bakery-items-optimized.webp",
+    "count": 3
   },
   {
-    "name": "Bakery Decorative Products",
-    "slug": "bakery-decorative-products",
-    "description": "Bakery Decorative Products",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "kitchen-essentials",
+    "name": "Sauces, Seasonings & Kitchen Essentials",
+    "description": "Sauces, Seasonings & Kitchen Essentials",
+    "image": "assets/images/categories/species.jpg",
+    "count": 32
   },
   {
-    "name": "Cake Base / Box / Pastry Tray / Wrap",
-    "slug": "cake-base-box-pastry-tray-wrap",
-    "description": "Cake Base / Box / Pastry Tray / Wrap",
-    "image": "assets/images/product-placeholder.svg"
-  },
-  {
-    "name": "Crush / Mocktails",
-    "slug": "crush-mocktails",
-    "description": "Crush / Mocktails",
-    "image": "assets/images/product-placeholder.svg"
-  },
-  {
-    "name": "Spices / Seasonings",
-    "slug": "spices-seasonings",
-    "description": "Spices / Seasonings",
-    "image": "assets/images/product-placeholder.svg"
-  },
-  {
-    "name": "Bread / Cheese / Milk / Ghee",
-    "slug": "bread-toppings-cheese-milk-ghee",
-    "description": "Bread / Cheese / Milk / Ghee",
-    "image": "assets/images/product-placeholder.svg"
-  },
-  {
-    "name": "Munch / Short Eats",
-    "slug": "munch-short-eats",
-    "description": "Munch / Short Eats",
-    "image": "assets/images/product-placeholder.svg"
-  },
-  {
-    "name": "Others",
-    "slug": "others",
-    "description": "Others",
-    "image": "assets/images/product-placeholder.svg"
+    "slug": "imported-meats",
+    "name": "Imported Meats",
+    "description": "Imported Meats",
+    "image": "assets/images/categories/continental-food-optimized.webp",
+    "count": 5
   }
 ]

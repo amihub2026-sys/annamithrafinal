@@ -6,7 +6,7 @@ import json,collections
 from xml.sax.saxutils import escape
 root=Path(__file__).resolve().parents[1]
 products=json.loads((root/'data/products.json').read_text());cats=json.loads((root/'data/categories.json').read_text())
-legacy={'milk-dairy':'bread-toppings-cheese-milk-ghee','paneer-cheese':'bread-toppings-cheese-milk-ghee','butter-cream-ghee':'bread-toppings-cheese-milk-ghee','frozen-vegetables':'veg-non-veg-frozen-starters-snacks','fries-potato':'veg-non-veg-frozen-starters-snacks','veg-snacks':'veg-non-veg-frozen-starters-snacks','nonveg-frozen':'veg-non-veg-frozen-starters-snacks','bakery':'cake-pre-mixes','sauces':'sauce-pasta-dressings-toppings'}
+legacy={'ice-creams': '', 'essentials': 'kitchen-essentials', 'whipping-cream-gel-filling': 'cheese-butter-cream', 'sauce-pasta-dressings-toppings': 'kitchen-essentials', 'chocolates-cocoa-compound': '', 'veg-non-veg-frozen-starters-snacks': 'veg-snacks', 'cake-pre-mixes': '', 'bakery-decorative-products': '', 'cake-base-box-pastry-tray-wrap': '', 'crush-mocktails': '', 'spices-seasonings': 'kitchen-essentials', 'bread-toppings-cheese-milk-ghee': 'cheese-butter-cream', 'munch-short-eats': 'veg-snacks', 'others': '', 'milk-dairy': 'cheese-butter-cream', 'paneer-cheese': 'cheese-butter-cream', 'butter-cream-ghee': 'cheese-butter-cream', 'frozen-vegetables': 'veg-snacks', 'fries-potato': 'veg-snacks', 'nonveg-frozen': 'chicken-meat-snacks', 'bakery': 'pastry-dough', 'sauces': 'kitchen-essentials'}
 assert len({p['id'] for p in products})==len(products)
 assert len({p['slug'] for p in products})==len(products)
 assert all(p['categorySlug'] in {c['slug'] for c in cats} for p in products)
@@ -25,7 +25,7 @@ styles=getSampleStyleSheet();styles.add(ParagraphStyle(name='CellText',fontName=
 styles.add(ParagraphStyle(name='SmallNote',fontName=font,fontSize=9,leading=14,spaceAfter=12))
 styles['Title'].fontName=font;styles['Heading1'].fontName=font;styles['Title'].textColor=colors.HexColor('#123c58');styles['Heading1'].textColor=colors.HexColor('#123c58')
 P=lambda s:Paragraph(escape(str(s)),styles['CellText'])
-flow=[Paragraph('ANNAMITHRA AGENCIES',styles['Title']),Paragraph('Product Catalogue',styles['Heading1']),Paragraph('Enquiries: +91 9384813537<br/>annamithraagenciesmdu@gmail.com',styles['SmallNote']),Paragraph(f'{len(products):,} catalogue entries across {len(cats)} categories. Please confirm pack sizes, availability and supply quantities before ordering. Product images are available on the website.',styles['SmallNote'])]
+flow=[Paragraph('ANNAMITHRA AGENCIES',styles['Title']),Paragraph('Product Catalogue',styles['Heading1']),Paragraph('Enquiries: +91 9384813537<br/>annamithraagenciesmdu@gmail.com',styles['SmallNote']),Paragraph(f'{len(products):,} catalogue entries across {len(cats)} categories. Please confirm pack sizes, availability and supply quantities before ordering.',styles['SmallNote'])]
 counts=collections.Counter(p['categorySlug'] for p in products)
 for c in cats:flow.append(Paragraph(escape(c['name'])+f" - {counts[c['slug']]} entries",styles['SmallNote']))
 for c in cats:

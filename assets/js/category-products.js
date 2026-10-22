@@ -13,12 +13,41 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 */
 
-document.addEventListener('DOMContentLoaded', () => {
- const list=document.querySelector('.category-product-list[data-category]');if(!list)return;
- const products=PRODUCTS.filter(p=>p.categorySlug===list.dataset.category).sort((a,b)=>a.productName.localeCompare(b.productName));
- const controls=document.createElement('div');controls.className='category-catalogue-controls';
- const count=document.createElement('p');count.setAttribute('aria-live','polite');controls.append(count);list.before(controls);
- const e=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- function render(){const items=products;count.textContent=`${items.length} products`;list.innerHTML=items.length?items.map(p=>`<div class="category-product-row"><div class="category-product-name">${e(p.productName)}</div><div class="category-product-size">${e(p.packSizes.join(', '))}</div><div class="category-product-brand">${e(p.brand)}</div></div>`).join(''):'<p>No products match your search.</p>';}
- render();
+document.addEventListener("DOMContentLoaded", () => {
+  const list = document.querySelector(".category-product-list[data-category]");
+  if (!list) return;
+  const products = PRODUCTS.filter(
+    (p) => p.categorySlug === list.dataset.category,
+  ).sort((a, b) => a.productName.localeCompare(b.productName));
+  const controls = document.createElement("div");
+  controls.className = "category-catalogue-controls";
+  const count = document.createElement("p");
+  count.setAttribute("aria-live", "polite");
+  controls.append(count);
+  list.before(controls);
+  const e = (value) =>
+    String(value ?? "").replace(
+      /[&<>"']/g,
+      (c) =>
+        ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;",
+        })[c],
+    );
+  function render() {
+    const items = products;
+    count.textContent = `${items.length} products`;
+    list.innerHTML = items.length
+      ? items
+          .map(
+            (p) =>
+              `<div class="category-product-row"><div class="category-product-name">${e(p.productName)}</div><div class="category-product-size">${e(p.packSizes.join(", "))}</div><div class="category-product-brand">${e(p.brand)}</div></div>`,
+          )
+          .join("")
+      : "<p>No products match your search.</p>";
+  }
+  render();
 });

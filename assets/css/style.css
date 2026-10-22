@@ -1349,7 +1349,7 @@ textarea.form-control {
             rgba(0, 0, 0, 0.76),
             rgba(0, 0, 0, 0.84)
         ),
-        url("../images/footer-frozen-food-bg.png");
+        url("../images/footer-frozen-food-bg-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -1716,7 +1716,7 @@ textarea.form-control {
     padding: 110px 0;
     overflow: hidden;
 
-    background-image: url("../images/why-choose-bg.png");
+    background-image: url("../images/why-choose-bg-optimized.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2032,7 +2032,7 @@ border-top: 1px solid rgba(255, 255, 255, 0.14);
             rgba(4, 12, 20, .38),
             rgba(4, 12, 20, .38)
         ),
-        url("../images/stats-food-bg.png");
+        url("../images/stats-food-bg-optimized.webp");
 
     background-size: cover;
     background-position: center;
@@ -3277,7 +3277,7 @@ border-top: 1px solid rgba(255, 255, 255, 0.14);
             rgba(0, 40, 44, .18),
             rgba(0, 40, 44, .40)
         ),
-        url("../images/about/vision-mission-bg.png");
+        url("../images/about/vision-mission-bg-optimized.webp");
 
     background-size: cover;
     background-position: center;
@@ -3776,7 +3776,7 @@ font-weight: 600;
             rgba(0, 35, 38, .42),
             rgba(0, 35, 38, .42)
         ),
-        url("../images/about/process-bg.png");
+        url("../images/about/process-bg-optimized.webp");
 
     background-size: cover;
     background-position: center;
@@ -4099,7 +4099,7 @@ color: white;
             rgba(0,0,0,.15),
             rgba(0,0,0,.15)
         ),
-        url("../images/contact-header.png");
+        url("../images/contact-header-optimized.webp");
 
     background-size: cover;
     background-position: center;
@@ -5080,7 +5080,7 @@ color: #ffffff;
     padding: 110px 0;
     overflow: hidden;
 
-    background-image: url("../images/brands-bg.png");
+    background-image: url("../images/brands-bg-optimized.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -5633,7 +5633,7 @@ color: #ffffff;
     overflow: hidden;
 
     background:
-        url("../images/sustainability-bg.png")
+        url("../images/sustainability-bg-optimized.webp")
         center / cover no-repeat;
 
     color: #fff;
@@ -10019,7 +10019,7 @@ grid-template-columns:
     opacity: .12;
 
     background:
-        url("assets/images/about/process-bg.png")
+        url("../images/about/process-bg-optimized.webp")
         center center / cover no-repeat;
 }
 
@@ -10544,7 +10544,7 @@ grid-template-columns:
 
 .icecream-category-hero {
     background-image:
-        url("../../assets/images/product-categories/icecream-hero.png");
+        url("../../assets/images/product-categories/icecream-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10556,7 +10556,7 @@ grid-template-columns:
 
 .frozen-starters-category-hero {
     background-image:
-        url("../../assets/images/product-categories/frozen-starters-category-hero.png");
+        url("../../assets/images/product-categories/frozen-starters-category-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10569,7 +10569,7 @@ grid-template-columns:
 
 .cake-premix-category-hero {
     background-image:
-        url("../../assets/images/product-categories/cake-premix-category-hero.png");
+        url("../../assets/images/product-categories/cake-premix-category-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10583,7 +10583,7 @@ grid-template-columns:
 
 .spices-category-hero{
     background-image:
-        url("../../assets/images/product-categories/spices-category-hero.png");
+        url("../../assets/images/product-categories/spices-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10598,7 +10598,7 @@ grid-template-columns:
 
 .munch-category-hero{
     background-image:
-        url("../../assets/images/product-categories/munch-category-hero.png");
+        url("../../assets/images/product-categories/munch-category-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10610,7 +10610,7 @@ grid-template-columns:
 
 .dairy-category-hero{
     background-image:
-        url("../../assets/images/product-categories/dairy-category-hero.png");
+        url("../../assets/images/product-categories/dairy-category-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10625,7 +10625,7 @@ cake-packaging-category-hero HERO IMAGE
 
 .cake-packaging-category-hero{
     background-image:
-        url("../../assets/images/product-categories/cake-packaging-category-hero.png");
+        url("../../assets/images/product-categories/cake-packaging-category-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10638,7 +10638,7 @@ cake-packaging-category-hero HERO IMAGE
 .others-category-hero{
     min-height: 700px;
     background-image:
-        url("../../assets/images/product-categories/others-category-hero.png");
+        url("../../assets/images/product-categories/others-category-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10651,7 +10651,7 @@ cake-packaging-category-hero HERO IMAGE
 
 .crush-category-hero {
     background-image:
-        url("../../assets/images/product-categories/crush-category-hero.png");
+        url("../../assets/images/product-categories/crush-category-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10663,7 +10663,7 @@ cake-packaging-category-hero HERO IMAGE
 
 .bakery-decorative-category-hero {
     background-image:
-        url("../../assets/images/product-categories/bakery-decorative-category-hero.png");
+        url("../../assets/images/product-categories/bakery-decorative-category-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10675,7 +10675,7 @@ cake-packaging-category-hero HERO IMAGE
 .essentials-category-hero {
     background:
   
-        url("../../assets/images/product-categories/essentials-hero.png");
+        url("../../assets/images/product-categories/essentials-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10692,7 +10692,7 @@ cake-packaging-category-hero HERO IMAGE
 
     background:
      
-        url("../../assets/images/product-categories/whipping-cream-hero.png");
+        url("../../assets/images/product-categories/whipping-cream-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10720,7 +10720,7 @@ cake-packaging-category-hero HERO IMAGE
     min-height: 800px;
 
     background-image:
-        url("../../assets/images/product-categories/sauce-pasta-hero.png");
+        url("../../assets/images/product-categories/sauce-pasta-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10773,7 +10773,7 @@ cake-packaging-category-hero HERO IMAGE
             rgba(255, 255, 255, 0.84),
             rgba(255, 255, 255, 0.84)
         ),
-        url("../../assets/images/product-categories/sauce-pasta-catalogue.png");
+        url("../../assets/images/product-categories/sauce-pasta-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10789,7 +10789,7 @@ CHOCOLATES / COCOA / COMPOUND — HERO
     position: relative;
 
     background-image:
-        url("../../assets/images/product-categories/chocolate-hero.png");
+        url("../../assets/images/product-categories/chocolate-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -10831,7 +10831,7 @@ CHOCOLATES / COCOA / COMPOUND — CATALOGUE BACKGROUND
             rgba(255, 255, 255, .86) 65%,
             rgba(255, 255, 255, .70) 100%
         ),
-        url("../../assets/images/product-categories/chocolate-catalogue.png");
+        url("../../assets/images/product-categories/chocolate-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -10912,7 +10912,7 @@ CHOCOLATES / COCOA / COMPOUND — CATALOGUE BACKGROUND
     min-height: 470px;
 
     background-image:
-        url("../../assets/images/product-categories/icecream-hero.png");
+        url("../../assets/images/product-categories/icecream-hero-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -11089,7 +11089,7 @@ CHOCOLATES / COCOA / COMPOUND — CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/icecream-intro.png");
+        url("../../assets/images/product-categories/icecream-intro-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11108,7 +11108,7 @@ CHOCOLATES / COCOA / COMPOUND — CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/frozen-starters-catalogue.png");
+        url("../../assets/images/product-categories/frozen-starters-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11129,7 +11129,7 @@ CHOCOLATES / COCOA / COMPOUND — CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/bakery-base-catalogue.png");
+        url("../../assets/images/product-categories/bakery-base-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11150,7 +11150,7 @@ CHOCOLATES / COCOA / COMPOUND — CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/munch-snacks-catalogue.png");
+        url("../../assets/images/product-categories/munch-snacks-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11170,7 +11170,7 @@ others-catalogue CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/others-catalogue.png");
+        url("../../assets/images/product-categories/others-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11189,7 +11189,7 @@ munch-sauces-catalogue CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/munch-sauces-catalogue.png");
+        url("../../assets/images/product-categories/munch-sauces-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11212,7 +11212,7 @@ cake-packaging-catalogue CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/cake-packaging-catalogue.png");
+        url("../../assets/images/product-categories/cake-packaging-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11233,7 +11233,7 @@ baking-ingredients-catalogue CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/baking-ingredients-catalogue.png");
+        url("../../assets/images/product-categories/baking-ingredients-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11252,7 +11252,7 @@ spices-catalogue CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/spices-catalogue.png");
+        url("../../assets/images/product-categories/spices-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11276,7 +11276,7 @@ crush-catalogue
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/crush-catalogue.png");
+        url("../../assets/images/product-categories/crush-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11299,7 +11299,7 @@ bakery-decoration-catalogue
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/bakery-decoration-catalogue.png");
+        url("../../assets/images/product-categories/bakery-decoration-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11321,7 +11321,7 @@ cake-premix-catalogue CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/cake-premix-catalogue.png");
+        url("../../assets/images/product-categories/cake-premix-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11341,7 +11341,7 @@ dairy-catalogue CATALOGUE BACKGROUND
             rgba(255,255,255,.82) 72%,
             rgba(255,255,255,.68) 100%
         ),
-        url("../../assets/images/product-categories/dairy-catalogue.png");
+        url("../../assets/images/product-categories/dairy-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center right;
@@ -11361,7 +11361,7 @@ dairy-catalogue CATALOGUE BACKGROUND
             rgba(255, 255, 255, .88) 68%,
             rgba(255, 255, 255, .78) 100%
         ),
-        url("../../assets/images/product-categories/essentials-catalogue.png");
+        url("../../assets/images/product-categories/essentials-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -11382,7 +11382,7 @@ dairy-catalogue CATALOGUE BACKGROUND
             rgba(255, 255, 255, .88) 68%,
             rgba(255, 255, 255, .78) 100%
         ),
-        url("../../assets/images/product-categories/whipping-cream-catalogue.png");
+        url("../../assets/images/product-categories/whipping-cream-catalogue-optimized.webp");
 
     background-size: cover;
     background-position: center center;
@@ -12609,3 +12609,5 @@ dairy-catalogue CATALOGUE BACKGROUND
     color: #64748b;
     line-height: 1;
 }
+/* Floating WhatsApp bubble removed sitewide. Desktop uses header buttons; mobile uses two-action bar. */
+.floating-wa { display:none !important; }

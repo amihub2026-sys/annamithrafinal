@@ -4117,3 +4117,109 @@ min-width: 72%;
 
 .category-product-size { white-space:normal; max-width:170px; }
 @media(max-width:600px) { .category-product-list { grid-template-columns:1fr !important; } .category-product-size { max-width:none; } }
+
+/* 2026-10-21: Mobile navigation usability corrections. */
+.header { background: #fff !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+@media (min-width: 1051px) {
+  .nav-dropdown-menu { max-height: min(70vh, 640px); overflow-y: auto; }
+}
+@media (max-width: 1050px) {
+  .header { position: sticky !important; top: 0 !important; }
+  .nav { position: relative; }
+  .navlinks {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important; right: 0 !important;
+    width: 100% !important;
+    max-height: calc(100dvh - 155px) !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+    padding: 12px 20px 20px !important;
+    border-top: 1px solid #e4ebee;
+    border-radius: 0 0 14px 14px;
+    z-index: 9999 !important;
+  }
+  .navlinks > a, .nav-dropdown-trigger {
+    padding: 13px 12px !important;
+    min-height: 47px !important;
+    border-bottom: 1px solid #eef1f3;
+  }
+  .nav-dropdown-trigger { justify-content: space-between !important; cursor: pointer; }
+  .nav-dropdown-menu, .nav-dropdown:hover .nav-dropdown-menu {
+    position: static !important;
+    width: 100% !important;
+    max-height: none !important;
+    display: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    box-shadow: none !important;
+    background: #f4f8f8 !important;
+    border-radius: 10px;
+    padding: 5px 8px !important;
+    overflow: visible !important;
+  }
+  .nav-dropdown.open .nav-dropdown-menu,
+  .nav-dropdown.open:hover .nav-dropdown-menu { display: block !important; }
+  .nav-dropdown:not(.open) .dropdown-arrow { transform: rotate(0deg) !important; }
+  .nav-dropdown.open .dropdown-arrow { transform: rotate(180deg) !important; }
+  .navlinks .nav-dropdown-menu a {
+    display: block !important;
+    padding: 12px 10px !important;
+    font-size: 14px !important;
+    line-height: 1.35 !important;
+    border-bottom: 1px solid #e4eded;
+    white-space: normal !important;
+  }
+  .navlinks .nav-dropdown-menu a:last-child { border-bottom: 0; }
+  /* Bottom WhatsApp shortcut is already present, so hide overlapping bubble. */
+  .floating-wa { display: none !important; }
+  .mobile-bar { z-index: 65 !important; }
+}
+
+/* Final mobile menu and two-action contact footer fix */
+@media (max-width: 1050px) {
+  .navlinks:not(.open) { display:none !important; visibility:hidden !important; }
+  .navlinks.open { display:block !important; visibility:visible !important; background:#fff !important; box-shadow:0 16px 24px rgba(0,0,0,.12) !important; }
+  .navlinks .nav-dropdown:not(.open) > .nav-dropdown-menu,
+  .navlinks .nav-dropdown:not(.open):hover > .nav-dropdown-menu { display:none !important; }
+  .navlinks .nav-dropdown.open > .nav-dropdown-menu {display:block !important;}
+  .mobile-bar {grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:0 !important;}
+  .mobile-bar a {display:flex;align-items:center;justify-content:center;flex-direction:column;min-height:48px;}
+  .floating-wa {display:none !important;}
+}
+
+/* Sitewide contact shortcut: mobile only, exactly Call and WhatsApp */
+@media (min-width: 769px) {
+  .mobile-bar { display: none !important; visibility: hidden !important; }
+}
+@media (max-width: 768px) {
+  .mobile-bar { display: grid !important; grid-template-columns: repeat(2,minmax(0,1fr)) !important; align-items:stretch; }
+  .mobile-bar a { display:flex !important; flex-direction:column; justify-content:center; align-items:center; gap:5px; text-align:center; cursor:pointer; }
+  .mobile-bar a i { font-size:20px; line-height:1.2; }
+  .mobile-bar a span { font-size:12px; font-weight:700; }
+}
+
+/* Uniform 2026 mobile navigation and two-action shortcut bar. */
+.wa-icon { display:inline-block; width:22px; height:22px; flex:none; vertical-align:middle; }
+@media (min-width: 769px) { .mobile-bar { display:none !important; } }
+@media (max-width: 768px) {
+  html, body { max-width:100%; overflow-x:clip; }
+  .mobile-bar { display:grid !important; grid-template-columns:repeat(2,minmax(0,1fr)) !important; position:fixed; left:0; right:0; bottom:0; z-index:999; background:#fff; padding:7px 10px max(7px,env(safe-area-inset-bottom)); box-shadow:0 -4px 16px rgba(0,0,0,.08); }
+  .mobile-bar a { display:flex !important; justify-content:center; align-items:center; flex-direction:column; gap:4px; min-height:48px; color:#172b35; text-decoration:none; font-size:13px; font-weight:750; }
+  .mobile-bar a[data-wa] {color:#137d53;}
+  .mobile-bar svg { width:23px; height:23px; }
+  .floating-wa { display:none !important; }
+  body { padding-bottom:calc(65px + env(safe-area-inset-bottom)); }
+}
+@media (max-width: 1050px) {
+  .navlinks:not(.open) { display:none !important; visibility:hidden !important; }
+  .navlinks.open { display:block !important; visibility:visible !important; max-height:calc(100dvh - 115px); overflow-y:auto !important; overscroll-behavior:contain; }
+  .navlinks .nav-dropdown:not(.open) > .nav-dropdown-menu,
+  .navlinks .nav-dropdown:not(.open):hover > .nav-dropdown-menu { display:none !important; opacity:0 !important; visibility:hidden !important; }
+  .navlinks .nav-dropdown.open > .nav-dropdown-menu { display:block !important; opacity:1 !important; visibility:visible !important; position:static !important; transform:none !important; width:100% !important; max-width:100% !important; box-shadow:none !important; }
+  .nav-dropdown-trigger { cursor:pointer; }
+}
+
+

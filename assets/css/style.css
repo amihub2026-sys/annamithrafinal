@@ -10673,6 +10673,21 @@ grid-template-columns:
     }
 }
 
+/* FROZEN VEG SNACKS & VEGETABLES HEADER */
+.product-category-hero.frozen-veg-snacks-hero {
+    background-image: url("../images/product-categories/frozen-veg-snacks-banner.png") !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .product-category-hero.frozen-veg-snacks-hero {
+        background-position: center center;
+    }
+}
+
 /* ==================================================
   cake-premix-category-hero— HERO IMAGE
 ================================================== */

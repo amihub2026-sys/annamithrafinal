@@ -10562,6 +10562,116 @@ grid-template-columns:
     background-position: center center;
     background-repeat: no-repeat;
 }
+.momos-rolls-samosas-hero {
+    background-image: url("../images/momos-rolls-samosas-banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* RAW & MARINATED CHICKEN HEADER */
+.raw-marinated-chicken-hero {
+    background-image: url("../images/product-categories/raw-marinated-chicken-banner.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .raw-marinated-chicken-hero {
+        background-position: center center;
+    }
+}
+
+/* CHICKEN & MEAT SNACKS HEADER */
+.product-category-hero.chicken-meat-snacks-hero {
+    background-image: url("../images/product-categories/chicken-meat-snacks-banner.png") !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .product-category-hero.chicken-meat-snacks-hero {
+        background-position: center center;
+    }
+}
+
+/* SEAFOOD HEADER */
+.product-category-hero.seafood-hero {
+    background-image: url("../images/product-categories/seafood-banner.png") !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .product-category-hero.seafood-hero {
+        background-position: center center;
+    }
+}
+
+/* PASTRY & DOUGH HEADER */
+.product-category-hero.pastry-dough-hero {
+    background-image: url("../images/product-categories/pastry-dough-banner.png") !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .product-category-hero.pastry-dough-hero {
+        background-position: center center;
+    }
+}
+
+/* CHEESE, BUTTER & CREAM HEADER */
+.product-category-hero.cheese-butter-cream-hero {
+    background-image: url("../images/product-categories/cheese-butter-cream-banner.png") !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .product-category-hero.cheese-butter-cream-hero {
+        background-position: center center;
+    }
+}
+
+/* SAUCES, SEASONINGS & KITCHEN ESSENTIALS */
+.product-category-hero.sauces-seasonings-hero {
+    background-image: url("../images/product-categories/sauces-seasonings-banner.png") !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .product-category-hero.sauces-seasonings-hero {
+        background-position: center center;
+    }
+}
+
+/* IMPORTED MEATS HEADER */
+.product-category-hero.imported-meats-hero {
+    background-image: url("../images/product-categories/imported-meats-banner.png") !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .product-category-hero.imported-meats-hero {
+        background-position: center center;
+    }
+}
 
 /* ==================================================
   cake-premix-category-hero— HERO IMAGE

@@ -12736,3 +12736,19 @@ dairy-catalogue CATALOGUE BACKGROUND
 }
 /* Floating WhatsApp bubble removed sitewide. Desktop uses header buttons; mobile uses two-action bar. */
 .floating-wa { display:none !important; }
+/* Dark gradient behind home slider text */
+.frozen-home-slider::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+
+    background: linear-gradient(
+        90deg,
+        rgba(0, 25, 28, 0.78) 0%,
+        rgba(0, 25, 28, 0.55) 35%,
+        rgba(0, 25, 28, 0.15) 65%,
+        transparent 100%
+    );
+}
